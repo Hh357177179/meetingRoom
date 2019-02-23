@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="full-screen" content="yes" />
+        <meta name="x5-fullscreen" content="true" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+        <title>会议室</title>
+        <script type="text/javascript">
+            !(function() {
+                var fontSize = parseFloat(
+                    getComputedStyle(
+                        document.getElementsByTagName("html")[0],
+                        null
+                    )["font-size"]
+                )
+                function a() {
+                    document.documentElement.style.fontSize =
+                        (((document.documentElement.clientWidth / 750) * 10) /
+                            fontSize) *
+                            1000 +
+                        "%"
+                }
+                var b = null
+                window.addEventListener(
+                    "resize",
+                    function() {
+                        clearTimeout(b)
+                        b = setTimeout(a, 300)
+                    },
+                    !1
+                )
+                a()
+            })(window)
+        </script>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+    </head>
+    <body>
+        <section class="roomLists"></section>
+        <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    </body>
+</html>
