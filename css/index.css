@@ -1,5 +1,52 @@
 .roomLists {
     width: 7.5rem;
-    height: 3.74rem;
-    background: #f00;
+}
+.roomList {
+    width: 7.5rem;
+    background: #fff;
+    margin-top: 0.3rem;
+    overflow: hidden;
+}
+.roomList_top {
+    width: 6.85rem;
+    margin: 0.3rem auto;
+    overflow: hidden;
+}
+.roomList_top_img {
+    float: left;
+    width: 2.4rem;
+}
+.roomList_top_main {
+    float: left;
+    margin-left: 0.3rem;
+}
+.roomList_top_main_name {
+    font-size: 0.34rem;
+    color: #191f25;
+}
+.roomList_top_main_addr {
+    margin-top: 0.04rem;
+    font-size: 0.28rem;
+    color: #191f25;
+    opacity: 0.72;
+}
+.roomList_top_main_label {
+    width: 4.15rem;
+    margin-top: 0.2rem;
+    font-size: 0.12rem;
+    overflow: hidden;
+}
+.roomList_top_main_label_li {
+    float: left;
+    color: #191f25;
+    opacity: 0.4;
+    padding: 0.04rem 0.08rem;
+    /* margin-right: 0.01rem; */
+    border: 0.01rem solid #191f25;
+    transform: scale(0.6);
+}
+.roomList_top_border {
+    width: 6.85rem;
+    margin: 0.3rem auto;
+    border-bottom: 0.01rem solid rgba(25, 31, 37, 0.08);
 }

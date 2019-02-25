@@ -90,3 +90,30 @@ body {
 .none {
     display: none;
 }
+.nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 7.5rem;
+    height: 1rem;
+    border-top: 0.01rem solid #ddd;
+    display: flex;
+}
+.nav_li {
+    flex: 1;
+    color: #999;
+    text-align: center;
+}
+.nav_img {
+    display: block;
+    width: 0.4rem;
+    margin: 0.2rem auto 0 auto;
+}
+.nav_name {
+    display: block;
+    font-size: 0.2rem;
+    transform: scale(0.7);
+}
+.nav_active {
+    color: #1aabf8 !important;
+}
