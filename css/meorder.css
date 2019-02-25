@@ -1,0 +1,120 @@
+.roomLists{
+  border: 1px solid rgba(0,0,0,0);
+  padding-bottom: 1.2rem;
+}
+.order_time{
+  background: rgba(25,31,37,0.2);
+  border-radius: 6px;
+  width: 1.46rem;
+  height: 0.48rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.48rem;
+  margin: 0.32rem auto;
+}
+.order_list_main{
+  width: 6.22rem;
+  /* height: 5rem; */
+  margin: 0 auto;
+  padding: 0.32rem 0.32rem 0;
+  background: #fff;
+}
+.meeting_pic{
+  float: left;
+  width: 1.92rem;
+  height: 1.44rem;
+  position: relative;
+  border-radius: 2px;
+  overflow: hidden;
+  margin-right: 0.24rem;
+
+}
+.meeting_pic img {
+  width: 100%;
+  height: 100%;
+}
+.state_text{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 0.2rem;
+  background: #1AABF8;
+  color: #fff;
+  padding: 0.04rem 0.06rem;
+}
+.meeting_text{
+  float: left;
+  font-size: 0.28rem;
+}
+.meet_name{
+  color: #191F25;
+  font-weight: 500;
+  line-height: 0.48rem;
+  font-size: 0.34rem;
+  margin-bottom: 0.16rem;
+}
+.msmall_tit{
+  color:rgba(25,31,37,0.56);
+}
+.week_text{
+  color: #1AABF8;
+  border-radius: 2px;
+  border:1px solid rgba(26,171,248,1);
+  font-size: 0.2rem;
+  padding: 0.06rem;
+  float: right;
+}
+.meet_local{
+  margin-top: 0.05rem;
+}
+.flool_pic{
+  float: left;
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-right: 0.1rem;
+}
+.flool_text{
+  font-size: 0.28rem;
+  color:rgba(25,31,37,0.56);
+  line-height: 0.4rem;
+}
+.schedule{
+  width: 6rem;
+  height: 0.32rem;
+  border-radius: 0.8rem;
+  background:rgba(25,31,37,0.08);
+  margin: 0.32rem auto 0;
+  position: relative;
+  overflow: hidden;
+}
+.scheduleing {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #1AABF8;
+  width: 40%;
+  height: 0.32rem;
+}
+.foot_btn{
+  margin-top: 0.32rem;
+  border-top: 1px solid rgba(25,31,37,0.08);
+}
+.no_cancel {
+  color:rgba(25,31,37,0.28);
+  width: 3.05rem;
+  height: 0.88rem;
+  text-align: center;
+  line-height: 0.88rem;
+  font-size: 0.34rem;
+  float: left;
+}
+.line{
+  float: left;
+  width: 1px;
+  height: 0.36rem;
+  margin-top: 0.26rem;
+  background:rgba(25,31,37,0.08);
+}
+.search_color {
+  color: #1AABF8;
+}

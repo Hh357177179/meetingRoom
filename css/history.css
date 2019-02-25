@@ -1,0 +1,63 @@
+.roomLists{
+  border: 1px solid rgba(0,0,0,0);
+  padding-bottom: 1.2rem;
+}
+.history_time{
+  background:rgba(25,31,37,0.2);
+  color: #fff;
+  font-size: 0.24rem;
+  border-radius: 3px;
+  width: 1.58rem;
+  height: 0.48rem;
+  line-height: 0.5rem;
+  text-align: center;
+  margin: 0.32rem auto;
+}
+.card_main{
+  width: 6.22rem;
+  /* height: 3.64rem; */
+  background: #fff;
+  border-radius: 6px;
+  margin: 0 auto;
+  padding: 0.32rem;
+  position: relative;
+}
+.card_text_list{
+  font-size: 0.28rem;
+  color: #191F25;
+}
+.card_text_list p{
+  float: left;
+  margin-top: 0.1rem;
+}
+.text_label{
+  color:rgba(25,31,37,0.56);
+}
+.week_text{
+  position: absolute;
+  right: 0.32rem;
+  top: 0.32rem;
+  border:1px solid rgba(26,171,248,1);
+  border-radius: 2px;
+  color: #1AABF8;
+  font-size: 0.2rem;
+  padding: 0.05rem;
+}
+.bot_bar{
+  border-top:1px solid rgba(25,31,37,0.08);
+  margin-top: 0.32rem;
+  line-height: 0.64rem;
+  padding-top: 0.19rem;
+  font-size: 0.24rem;
+  color:rgba(25,31,37,0.56);
+}
+.delete_btn{
+  float: right;
+  font-size: 0.28rem;
+  font-weight: 500;
+  color:rgba(25,31,37,0.56);
+  border:1px solid rgba(25,31,37,0.12);
+  border-radius: 3px;
+  width: 1.2rem;
+  text-align: center;
+}

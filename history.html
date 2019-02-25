@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="full-screen" content="yes" />
+        <meta name="x5-fullscreen" content="true" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+        <title>会议室</title>
+        <script type="text/javascript">
+            !(function() {
+                var fontSize = parseFloat(
+                    getComputedStyle(
+                        document.getElementsByTagName("html")[0],
+                        null
+                    )["font-size"]
+                )
+                function a() {
+                    document.documentElement.style.fontSize =
+                        (((document.documentElement.clientWidth / 750) * 10) /
+                            fontSize) *
+                            1000 +
+                        "%"
+                }
+                var b = null
+                window.addEventListener(
+                    "resize",
+                    function() {
+                        clearTimeout(b)
+                        b = setTimeout(a, 300)
+                    },
+                    !1
+                )
+                a()
+            })(window)
+        </script>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/history.css" />
+    </head>
+    <body>
+        <div class="roomLists">
+            <div class="history_list">
+              <p class="history_time">10-11 15:23</p>
+              <div class="card_main">
+                <div class="card_text_list clearfix">
+                  <p>
+                    <span class="text_label">使用日期：</span>
+                    <span>2018-10-11</span>
+                  </p>
+                  <p>
+                    <span class="text_label">使用时段：</span>
+                    <span>14:00-15:30（共1小时30分钟）</span>
+                  </p>
+                  <p>
+                    <span class="text_label">使用时间：</span>
+                    <span>10:00-11:12（共1小时12分钟）</span>
+                  </p>
+                  <p>
+                    <span class="text_label">会议地址：</span>
+                    <span>会议室306 3楼 华峰国际大厦</span>
+                  </p>
+                  <div class="week_text">星期日</div>
+                </div>
+                <div class="bot_bar clearfix">
+                  <span>会议取消</span>
+                  <span class="delete_btn">删除</span>
+                </div>
+              </div>
+            </div>
+            
+            <ul class="nav">
+                <li class="nav_li">
+                    <img class="nav_img" src="image/list.png" />
+                    <span class="nav_name">会议室</span>
+                </li>
+                <li class="nav_li">
+                    <img class="nav_img" src="image/order.png" />
+                    <span class="nav_name">我的预约</span>
+                </li>
+                <li class="nav_li nav_active">
+                    <img class="nav_img" src="image/chistory.png" />
+                    <span class="nav_name">历史记录</span>
+                </li>
+            </ul>
+        </div>
+
+        <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    </body>
+</html>
